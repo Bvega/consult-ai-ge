@@ -1,0 +1,32 @@
+﻿# Environment
+.env
+.env.local
+
+# Bubble
+.bubble-cache
+.bubble-debug
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temp
+*.tmp
+*.temp
+~*
+
+# Security
+private/
+secrets/
+
+# Build
+dist/
+build/

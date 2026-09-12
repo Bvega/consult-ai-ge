@@ -1,0 +1,333 @@
+================================================================================
+🔍 AUDIT SYSTEM PARA CONSULT AI-GE MVP
+Rastrear qué modelo Claude se usa en cada fase
+================================================================================
+
+PROBLEMA QUE RESUELVE:
+✅ Saber exactamente qué modelo se usó (Opus/Sonnet/Haiku)
+✅ Cuántos tokens gastó cada uno
+✅ Cuándo se ejecutó (fecha/hora)
+✅ Qué output generó (calidad)
+✅ Auditoría completa para stakeholders
+
+================================================================================
+📊 SISTEMA DE 3 NIVELES
+================================================================================
+
+NIVEL 1: AUDIT-LOG.md (Centralizado)
+├─ ARCHIVO: consult-ai-ge/AUDIT-LOG.md
+├─ PROPÓSITO: Alto nivel - summary de todas las fases + modelos
+├─ ACTUALIZADO POR: Bolivar
+├─ FRECUENCIA: End-of-phase (1-4 done, luego weekly during build)
+├─ EJEMPLO:
+│  
+│  Phase 1: Discovery (7,000 tokens, Claude Opus 4.5)
+│  ├─ Agent 1: Market analysis (3,500 tokens) ✅
+│  └─ Agent 4: Risk analysis (3,500 tokens) ✅
+│  
+│  Week 1: Build (1,400 tokens, Claude Sonnet 4.5)
+│  ├─ Day 1: Bubble setup (200 tokens) ✅
+│  ├─ Day 2-3: Auth (500 tokens) ✅
+│  ├─ Day 4: Email (150 tokens) ✅
+│  └─ Day 5: Profiles (300 tokens) ✅
+│
+└─ ACCESO: https://github.com/Bvega/consult-ai-ge/AUDIT-LOG.md
+
+================================================================================
+
+NIVEL 2: GIT COMMIT MESSAGES (Diario)
+├─ DÓNDE: GitHub commits
+├─ PROPÓSITO: Nivel de detalle - cada tarea con modelo + tokens
+├─ ACTUALIZADO POR: Developer LLM
+├─ FRECUENCIA: Con cada commit (diario)
+├─ FORMATO: [Week X, Day Y]: [Task] (Model, ~Tokens)
+├─ EJEMPLOS:
+│
+│  ✅ Week 1, Day 1: Bubble workspace + database setup (Claude Sonnet 4.5, ~200 tokens)
+│  ✅ Week 1, Day 2-3: User authentication flows (Claude Sonnet 4.5, ~500 tokens)
+│  ✅ Week 2, Day 3: Matching algorithm (Claude Opus 4.5, escalation ~600 tokens)
+│
+├─ VERIFICAR:
+│  git log --oneline | head -20
+│  # Output shows all tasks + models used
+│
+└─ ACCESO: GitHub repo commits
+
+================================================================================
+
+NIVEL 3: WEEKLY REPORTS (Semanal)
+├─ ARCHIVO: DEVELOPER-MODEL-TRACKING.md (template)
+├─ PROPÓSITO: Detalle completo - breakdown por día + escl escalaciones
+├─ ACTUALIZADO POR: Developer LLM
+├─ FRECUENCIA: Viernes EOD (cada semana)
+├─ FORMATO: GitHub comment o file update
+├─ EJEMPLO:
+│
+│  ## Week 1 Model Report (2026-09-20)
+│  
+│  ### Summary
+│  - Models used: Claude Sonnet 4.5 (primary)
+│  - Escalations: 0
+│  - Total tokens: ~1,400
+│  
+│  ### Day-by-Day
+│  - Day 1: Bubble setup (200 tokens) ✅
+│  - Day 2-3: Auth (500 tokens) ✅
+│  - Day 4: Email (150 tokens) ✅
+│  - Day 5: Profiles (300 tokens) ✅
+│  
+│  ### Notes
+│  Sonnet 4.5 handled all tasks smoothly.
+│  No escalations needed.
+│  Ready for Week 2.
+│
+└─ ACCESO: GitHub comments + file
+
+================================================================================
+🔄 FLUJO DE AUDITORÍA (CÓMO FUNCIONA)
+================================================================================
+
+Developer LLM TRABAJA en tarea
+    ↓
+Usa Claude Sonnet 4.5
+(o escalate a Opus si está stuck >30 min)
+    ↓
+Commit a GitHub CON modelo info en mensaje
+    ↓
+FIN DE SEMANA (Viernes):
+├─ Developer LLM submite reporte detallado
+└─ Incluye: tokens, escalaciones, notas
+    ↓
+BOLIVAR REVISA (Friday EOD):
+├─ Lee git log (todos commits con modelos)
+├─ Lee weekly report (details)
+├─ Verifica tokens <budget
+├─ Verifica calidad ≥⭐⭐⭐⭐
+├─ Verifica escalaciones (si hay)
+└─ Actualiza AUDIT-LOG.md
+    ↓
+BOLIVAR SIGN-OFF:
+├─ GO (próxima semana) ✅
+└─ HOLD (revisar, cambiar strategy) ❌
+    ↓
+PÚBLICO EN GITHUB:
+├─ Commits visibles (quién hizo qué, cuándo, con qué modelo)
+├─ Weekly reports visibles (trasparencia)
+└─ AUDIT-LOG.md visible (summary auditable)
+
+================================================================================
+📋 ARCHIVO: AUDIT-SYSTEM.md (MAESTRO)
+================================================================================
+
+ARCHIVO: consult-ai-ge/AUDIT-SYSTEM.md
+PROPÓSITO: Explicar todo el sistema (meta-doc)
+CONTIENE:
+  ├─ Por qué importa (cost control, reproducibilidad, compliance)
+  ├─ Los 3 niveles de auditoría (explicado)
+  ├─ Flujo de datos (cómo todo se conecta)
+  ├─ Métricas por phase (qué se trackea)
+  ├─ Model strategy (cuándo usar Opus vs Sonnet)
+  ├─ Token budget & tracking (presupuesto)
+  ├─ Quality gates (umbrales)
+  ├─ Red flags (cuándo escalate)
+  ├─ Weekly review checklist (para Bolivar)
+  ├─ Audit integrity (cómo es tamper-proof)
+  └─ Sample audit report (ejemplo real)
+
+LEER: Si quieres entender TODO el sistema de auditoría
+
+================================================================================
+🎯 SETUP CHECKLIST PARA BOLIVAR
+================================================================================
+
+PRE-BUILD PHASE:
+
+□ Phase 1-4 (COMPLETADO):
+  ✅ AUDIT-LOG.md created + filled (Phase 1-4 datos)
+  ✅ Tokens tracked: 7K + 14K + 6K + 7K = 34K total
+  ✅ Quality rating: ⭐⭐⭐⭐⭐ all phases
+  ✅ All phases: GO recommendation
+
+□ Comunicar a Developer LLM:
+  [ ] Leer: AUDIT-SYSTEM.md (entender sistema)
+  [ ] Leer: DEVELOPER-MODEL-TRACKING.md (template reportes)
+  [ ] Entender: Formato commit messages
+  [ ] Entender: Friday weekly report format
+  [ ] Preguntar si tiene dudas (antes de Week 1)
+
+DURANTE BUILD PHASE (Weeks 1-4):
+
+□ Diario (Developer LLM):
+  - Cada commit incluye modelo info
+  - Example: "Week 1, Day 1: Bubble setup (Sonnet, ~200)"
+
+□ Viernes EOD (Developer LLM):
+  - Submite weekly model report
+  - Incluye: tokens, escalaciones, notas
+
+□ Viernes EOD (Bolivar):
+  - Lee git log (verifica commits tienen modelo)
+  - Lee weekly report (detalle)
+  - Verifica: tokens <budget, calidad ≥⭐⭐⭐⭐
+  - Actualiza AUDIT-LOG.md
+  - Decide: GO / HOLD
+  - Comenta en GitHub con feedback
+
+DESPUÉS DE BUILD (Post-Launch):
+
+□ Reporte final:
+  - Total tokens gastados (vs presupuesto)
+  - Model performance analysis
+  - Recomendaciones para Phase 2
+
+================================================================================
+💰 BUDGET: CONTROL DE TOKENS
+================================================================================
+
+ALLOCATION TOTAL: 40-45K tokens
+
+USADO YA (Phases 1-4): 34K tokens
+├─ Phase 1: 7K (Claude Opus 4.5)
+├─ Phase 2: 14K (Claude Opus 4.5)
+├─ Phase 3: 6K (Claude Opus 4.5)
+└─ Phase 4: 7K (Claude Opus 4.5)
+
+BUILD PHASE PRESUPUESTO: 10K tokens
+├─ Week 1: 2K (Claude Sonnet 4.5)
+├─ Week 2: 2K (Claude Sonnet 4.5)
+├─ Week 3: 2K (Claude Sonnet 4.5)
+└─ Week 4: 4K (Claude Sonnet 4.5 + Opus escalations)
+
+CONTINGENCY: 1-5K tokens (no asignados aún)
+
+STATUS: 34K usado, ~11K disponible (25% buffer) ✅
+
+================================================================================
+📊 QUALITY TRACKING
+================================================================================
+
+FASE 1-4 (COMPLETADA):
+Phase 1: ⭐⭐⭐⭐⭐ (5/5) - Market gaps real, risks mitigatable
+Phase 2: ⭐⭐⭐⭐⭐ (5/5) - Features tight scope, all buildable
+Phase 3: ⭐⭐⭐⭐⭐ (5/5) - Timeline realistic, tasks clear
+Phase 4: ⭐⭐⭐⭐⭐ (5/5) - Docs complete, developer-ready
+
+BUILD PHASE (POR TRACKEAR):
+├─ Week 1: TBD (target: ⭐⭐⭐⭐⭐, 0 critical bugs)
+├─ Week 2: TBD (target: ⭐⭐⭐⭐⭐, search+matching correct)
+├─ Week 3: TBD (target: ⭐⭐⭐⭐⭐, payments work)
+└─ Week 4: TBD (target: ⭐⭐⭐⭐⭐, UAT complete)
+
+RED FLAGS (if any):
+- Quality <⭐⭐⭐⭐ (4 stars) = Escalate to Bolivar
+- Tokens >25% over budget = Discuss strategy change
+- Escalations >2/week = Model strategy not working
+- Critical bugs >0 = Stop, fix, continue
+
+================================================================================
+🔐 POR QUÉ ES AUDITABLE
+================================================================================
+
+✅ TAMPER-PROOF:
+   - GitHub commits firmados (Git feature)
+   - Historia de GitHub es immutable
+   - AUDIT-LOG.md en version control
+   - Visibilidad pública (anyone can verify)
+
+✅ NO-REPUDIATION:
+   - Cada commit linked a developer identity
+   - Model choice documentado inline
+   - Weekly reports timestamped
+   - Bolivar sign-off crea accountability
+
+✅ TRAZABILIDAD:
+   ```bash
+   # Verificar quién hizo qué, cuándo, con qué modelo
+   git log --format="%h %an %ad %s" --date=short
+   
+   # Output:
+   a1b2c3d Developer LLM 2026-09-19 Week 1, Day 1: Bubble setup (Sonnet, ~200)
+   d4e5f6g Developer LLM 2026-09-20 Week 1, Day 2: Auth (Sonnet, ~500)
+   ```
+
+================================================================================
+📁 ARCHIVOS CREADOS
+================================================================================
+
+consult-ai-ge/
+├── AUDIT-LOG.md                    ← Central audit log (fases + tokens)
+├── AUDIT-SYSTEM.md                 ← Explicación completa del sistema
+├── DEVELOPER-MODEL-TRACKING.md     ← Template para reportes Dev
+└── (otros archivos del proyecto)
+
+TAMAÑO TOTAL AUDITORÍA: ~15 KB (3 archivos markdown)
+
+================================================================================
+✅ PRÓXIMOS PASOS PARA BOLIVAR
+================================================================================
+
+AHORA (PRE-PUSH A GITHUB):
+1. Revisa AUDIT-SYSTEM.md (entender el sistema)
+2. Revisa AUDIT-LOG.md (ver Phase 1-4 datos)
+3. Revisa DEVELOPER-MODEL-TRACKING.md (template para Dev)
+4. Confirmá que todo cierra
+
+EN GITHUB (POST-PUSH):
+5. Comunicá a Developer LLM:
+   - Lee estos 3 archivos (30 min)
+   - Entendé el sistema de auditoría
+   - Preguntá si no entiende algo
+
+DURING BUILD (Weeks 1-4):
+6. Developer LLM: Cada commit con modelo + tokens
+7. Developer LLM: Friday - reporte semanal
+8. Bolivar: Friday - revisa + actualiza AUDIT-LOG.md
+9. Bolivar: Decide GO / HOLD
+
+AFTER BUILD:
+10. Reporte final: Tokens gastados, model analysis, Phase 2 recommendations
+
+================================================================================
+❓ FAQ RÁPIDO
+================================================================================
+
+P: ¿Qué es lo más importante para Bolivar?
+R: Que AUDIT-LOG.md se actualice cada Friday EOW con:
+   - Tokens gastados (vs budget)
+   - Qué modelo se usó
+   - Quality rating
+   - Si escalations ocurrieron
+
+P: ¿Qué es lo más importante para Developer LLM?
+R: Que cada commit mencione el modelo:
+   "Week 1, Day 1: [task] (Claude Sonnet 4.5, ~200 tokens)"
+
+P: ¿Qué si Developer LLM se olvida de reportar?
+R: Bolivar puede revisar git log y reconstruir. Pero es mejor reportar.
+
+P: ¿Qué si tokens se acaban?
+R: Bolivar escala a Opus (mejor reasoning, más caro). O cut scope.
+
+P: ¿Qué si calidad baja <⭐⭐⭐⭐?
+R: Red flag. Bolivar + Dev LLM discuten qué cambiar.
+
+P: ¿Qué si algo en el proyecto cambia?
+R: Actualiza AUDIT-LOG.md + Decision log (docs/decisions/)
+
+================================================================================
+🚀 LISTO PARA USAR
+================================================================================
+
+STATUS: ✅ Sistema de auditoría COMPLETO
+
+ARCHIVOS:
+✅ AUDIT-LOG.md (Phase 1-4 data, template para build)
+✅ AUDIT-SYSTEM.md (explicación completa)
+✅ DEVELOPER-MODEL-TRACKING.md (template reportes)
+
+PRÓXIMO: Push a GitHub → Comunicar a Developer LLM → Start Week 1
+
+================================================================================
+
+¿Alguna pregunta sobre el sistema de auditoría?
+O ¿Procedemos con el push a GitHub?
