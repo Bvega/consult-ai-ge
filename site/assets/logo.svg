@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" role="img" aria-label="Consult AI-ge">
+  <g fill="none" stroke="#a8461f" stroke-width="3" stroke-linecap="round">
+    <circle cx="32" cy="32" r="8"/>
+    <circle cx="32" cy="32" r="17" opacity=".65"/>
+    <circle cx="32" cy="32" r="26" opacity=".35"/>
+  </g>
+  <text x="74" y="43" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2a44">Consult <tspan fill="#a8461f" font-weight="bold">AI</tspan>-ge</text>
+</svg>
