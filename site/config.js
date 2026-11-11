@@ -1,4 +1,4 @@
-// Consult AI-ge site settings. This is the only file you need to edit
+// Consult AI-ge site settings (waitlist form handled by Netlify Forms). This is the only file you need to edit
 // to go from test launch to real launch, and to open or close sales.
 //
 // testMode     true  = test launch. Shows a "test version" banner on every
