@@ -29,11 +29,16 @@ Estimated effort to first sale: about 12 hours of setup spread over a week, then
 - [ ] Submit the waitlist form once yourself and confirm that the entry appears in Netlify under Forms.
 - [ ] Turn on email notifications for new form entries.
 
-## Step 3. Fill in the legal placeholders (1 hour, plus the lawyer)
+## Step 3. Test launch now, real details later
 
-- [ ] Replace every `[[placeholder]]` in `site/privacy.html` and `site/terms.html`. To list them: `grep -n "\[\[" site/*.html`
+The site ships in test mode: `testMode: true` in `site/config.js`. In test mode every page shows a "Test version" banner, search engines are asked not to list the site, and the Privacy and Terms pages show stand-in business details. You can deploy and collect a test waitlist like this.
+
+Before the real launch:
+
+- [ ] In `site/config.js`, fill in `business` (legal name, location, contact email, providers, date) and set `testMode: false`. That is the only file to edit.
 - [ ] Work through the checklist at the end of `plan/05-legal-templates.md`.
 - [ ] Have a lawyer review the privacy page, the terms and the refund policy before you take payment.
+- [ ] Do not paste a payment link into `checkoutUrl` while `testMode` is true.
 
 ## Step 4. Set up email (2 hours)
 

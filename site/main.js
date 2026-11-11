@@ -17,6 +17,25 @@
     }
   });
 
+  var biz = c.business || {};
+  each("[data-biz]", function (el) {
+    var v = biz[el.getAttribute("data-biz")];
+    if (v) el.textContent = v;
+  });
+
+  if (c.testMode) {
+    var meta = document.createElement("meta");
+    meta.name = "robots";
+    meta.content = "noindex, nofollow";
+    document.head.appendChild(meta);
+
+    var bar = document.createElement("div");
+    bar.className = "test-banner";
+    bar.setAttribute("role", "note");
+    bar.textContent = "Test version. This site is being tried out and the course is not yet on sale.";
+    document.body.insertBefore(bar, document.body.firstChild);
+  }
+
   if (selling) {
     each("[data-cta]", function (el) {
       el.setAttribute("href", c.checkoutUrl);

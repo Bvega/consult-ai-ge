@@ -19,7 +19,7 @@ Why no course platform for the pilot: twelve people can be served from a shared 
 
 ## How the site switches from waitlist to sales
 
-`site/config.js` holds four settings:
+`site/config.js` holds the sales settings (and the test-mode switch and business details described in `START-HERE.md`, step 3):
 
 ```js
 window.CONSULT_AIGE = {
