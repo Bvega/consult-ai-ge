@@ -1,5 +1,14 @@
 ﻿# Changelog
 
+## [0.1.0] - 2026-11-11 - Course test launch
+
+### Added
+- Course business built from the new project brief: plan, 7-module course, website, marketing kit, brand guide
+- Website live in test mode on Netlify with a working waitlist form
+- See MILESTONE-COURSE-TEST-LAUNCH.md for status and next steps
+
+---
+
 ## [Unreleased - Build Phase]
 
 ### Phase 1-4 Complete
