@@ -2,7 +2,7 @@
 
 *Said "consult-age".* A six-week course that teaches retired professionals to use simple AI tools to turn decades of experience into an advisory offer (a checklist, a web page and a first paid call) that younger professionals can find, trust and pay for.
 
-**To launch, open [START-HERE.md](START-HERE.md).** It is a step-by-step runbook; everything it refers to is already in this repository.
+**To launch, open [START-HERE.md](START-HERE.md). Current status: [MILESTONE-COURSE-TEST-LAUNCH.md](MILESTONE-COURSE-TEST-LAUNCH.md).** It is a step-by-step runbook; everything it refers to is already in this repository.
 
 ## What is here
 
