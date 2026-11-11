@@ -52,4 +52,4 @@
 ## After three paid sessions
 
 - New price: ____________
-- Next story to turn into a framework: ____________
+- Next situation to turn into a framework: ____________

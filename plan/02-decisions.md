@@ -42,8 +42,8 @@ Module 0 is setup, done before week one. Modules 1–6 map onto the five teachin
 | Week | Module | Learner leaves with |
 |---|---|---|
 | Pre-work | 0. Welcome and setup | A working AI assistant and the four safety rules |
-| 1 | 1. Mine your experience | A bank of five real stories |
-| 2 | 2. From stories to frameworks | One named framework and a checklist |
+| 1 | 1. Mine your experience | A bank of five real situations |
+| 2 | 2. From situations to frameworks | One named framework and a checklist |
 | 3 | 3. Package it | A one-page PDF and a one-page website |
 | 4 | 4. Position it | A one-sentence offer and a profile that says it |
 | 5 | 5. Work across generations | Three conversations with younger professionals |

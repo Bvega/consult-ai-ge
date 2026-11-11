@@ -57,7 +57,7 @@ The next version is nearly right, and she tightens it to the sentence above. Her
 
 **Helping hospital finance analysts get through their first audit · 31 yrs hospital finance, 4 audits led**
 
-She rewrites her summary as four short paragraphs: the problem, her three warning signs, who she is, and a link to her page. Then she writes one post: the first warning sign, the two-paragraph story behind it, and the line "The other two are on a one-page checklist. Link in the comments."
+She rewrites her summary as four short paragraphs: the problem, her three warning signs, who she is, and a link to her page. Then she writes one post: the first warning sign, the two-paragraph account of the situation behind it, and the line "The other two are on a one-page checklist. Link in the comments."
 
 She sends the post to six former colleagues with a personal note. Two share it with their teams.
 
@@ -114,14 +114,14 @@ My offer: [paste]. My framework: [paste]. My page: [link].
 
 ### Step 4. Write one useful post (30 minutes)
 
-One item from your framework, the short story behind it, and a pointer to the rest. That is all.
+One item from your framework, a short account of the situation behind it, and a pointer to the rest. That is all.
 
 ```
 Write a short LinkedIn post, under 150 words, in my voice. Open with
-the first item of my framework stated plainly. Then tell the story
+the first item of my framework stated plainly. Then describe the situation
 behind it in three or four sentences. End by saying the full
 checklist is on one page and the link is in the comments. No
-hashtags, no emoji. Item: [paste]. Story: [paste].
+hashtags, no emoji. Item: [paste]. Situation: [paste].
 ```
 
 ### Step 5. Tell ten people (30 minutes)

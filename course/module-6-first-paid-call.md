@@ -172,7 +172,7 @@ Your price, said out loud. And your booking link.
 When three people have paid you, you have a small consulting practice. From there:
 
 - Raise the price.
-- Build a second framework from another story in your bank.
+- Build a second framework from another situation in your bank.
 - Ask each client who else should see your checklist.
 - Offer a manager a session for their whole team.
 

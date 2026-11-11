@@ -40,11 +40,11 @@ Linda's answer is a budget audit that uncovered a seven-figure gap three weeks b
 
 1. The reports from that department were always late, with a good reason every time.
 2. The forecast was too smooth. Real spending is lumpy.
-3. Questions about numbers got answered with stories about workload.
+3. Questions about numbers got answered with explanations about workload.
 
 That is now a one-page checklist. A hospital analyst half her age, about to face a first audit, would be very glad to find it.
 
-You have stories like that. The course is six weeks of getting them out and putting them to work.
+You have situations like that. The course is six weeks of getting them out and putting them to work.
 
 [[Your name]]
 
@@ -84,7 +84,7 @@ Enrolment for the Founding Cohort is open as of today.
 - **Price:** $297, one payment
 - **Refund:** in full within 14 days of the start date, no questions asked
 
-In six weeks you will go from a career's worth of stories to a published one-page checklist, a simple web page, and a plan for your first paid advisory call.
+In six weeks you will go from a career's worth of situations to a published one-page checklist, a simple web page, and a plan for your first paid advisory call.
 
 It is a founding cohort, which means the group is small, you get more of my attention, and I will ask for your honest feedback each week.
 
@@ -102,8 +102,8 @@ Hello [[first name]],
 
 Here is the course, week by week, and what you finish with each time.
 
-1. **Mine your experience.** Five real stories from your career.
-2. **Stories to frameworks.** One of them turned into a named checklist.
+1. **Mine your experience.** Five real situations from your career.
+2. **Situations to frameworks.** One of them turned into a named checklist.
 3. **Package it.** A one-page PDF and a simple web page.
 4. **Position it.** One sentence that says who you help and with what.
 5. **Work across generations.** Three conversations with younger professionals.
@@ -129,7 +129,7 @@ A few questions that have come in:
 
 **"I retired from a licensed profession. Is this allowed?"** Often, yes, within limits. The course is about sharing experience, not practising, and Module 0 tells you what to check with your licensing body.
 
-**"What if I can't think of any stories?"** You will. The first exercise exists to prove it, and the free guide is a taste of it: [[link to free guide]].
+**"What if I can't think of any situations?"** You will. The first exercise exists to prove it, and the free guide is a taste of it: [[link to free guide]].
 
 If you have a question I have not answered, reply to this email or call me on [[phone]].
 
@@ -175,7 +175,7 @@ Three things to do this week:
 
 Two things to know from the start. Calls are recorded and shared only with the group. And the first rule of the course: nothing confidential from a former employer goes into an AI tool. Change the names and round the numbers.
 
-I am looking forward to hearing your stories.
+I am looking forward to hearing about your experience.
 
 [[Your name]]
 
@@ -214,7 +214,7 @@ This week: **[[module title]]**. [[One sentence on what they will finish with.]]
 
 Hello [[first name]],
 
-Six weeks ago you had a career's worth of experience and nowhere to put it. You now have stories written down, a framework with your name on it, a page on the internet and a way to be booked.
+Six weeks ago you had a career's worth of experience and nowhere to put it. You now have situations written down, a framework with your name on it, a page on the internet and a way to be booked.
 
 One request: five minutes of feedback, here: [[form link]]. It shapes the next cohort.
 

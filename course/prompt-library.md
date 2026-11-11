@@ -26,11 +26,11 @@ Summarise what I've told you so far in five bullet points.
 
 ## Module 1: Mine your experience
 
-**Step 1. Start the interview (45 minutes for the first story)**
+**Step 1. Start the interview (45 minutes for the first situation)**
 
 ```
 I want you to interview me about my career so I can capture a
-specific story. I'm a retired [role] with [number] years in [field].
+specific situation. I'm a retired [role] with [number] years in [field].
 
 Rules for the interview:
 - Ask one question at a time and wait for my answer.
@@ -47,7 +47,7 @@ mistake I watched every new hire make.
 **Step 2. Have it written up (10 minutes)**
 
 ```
-Write this story up in four short sections: The situation, The signal,
+Write this situation up in four short sections: The situation, The signal,
 The decision, The lesson. Use my words where you can. Keep it under
 300 words. Then list anything you were unsure about.
 ```
@@ -55,16 +55,16 @@ The decision, The lesson. Use my words where you can. Keep it under
 **Step 3. Correct it and make it safe (15 minutes)**
 
 ```
-Give this story a short title that names the lesson, not the event.
+Give this situation a short title that names the lesson, not the event.
 Offer me five options.
 ```
 
-## Module 2: From stories to frameworks
+## Module 2: From situations to frameworks
 
-**Step 1. Choose your story (15 minutes)**
+**Step 1. Choose your situation (15 minutes)**
 
 ```
-Here are the titles and signals of my five stories: [paste them].
+Here are the titles and signals of my five situations: [paste them].
 Which one describes a problem that people early in their careers in
 [field] most often face and worry about? Give your reasoning, then
 ask me which one I'd most enjoy discussing with a younger colleague.
@@ -73,10 +73,10 @@ ask me which one I'd most enjoy discussing with a younger colleague.
 **Step 2. Find the pattern (30 minutes)**
 
 ```
-Here is a story from my career: [paste story].
+Here is a situation from my career: [paste situation].
 
 Find the pattern in it that someone else could reuse. Do not add
-general best practices. Use only what is in my story.
+general best practices. Use only what is in my situation.
 
 Suggest which shape fits best: warning signs, a checklist, questions
 to ask, steps, or an either/or guide. Then draft it with between three
@@ -173,10 +173,10 @@ My offer: [paste]. My framework: [paste]. My page: [link].
 
 ```
 Write a short LinkedIn post, under 150 words, in my voice. Open with
-the first item of my framework stated plainly. Then tell the story
+the first item of my framework stated plainly. Then describe the situation
 behind it in three or four sentences. End by saying the full
 checklist is on one page and the link is in the comments. No
-hashtags, no emoji. Item: [paste]. Story: [paste].
+hashtags, no emoji. Item: [paste]. Situation: [paste].
 ```
 
 ## Module 5: Work across generations

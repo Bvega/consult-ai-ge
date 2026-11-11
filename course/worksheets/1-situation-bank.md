@@ -1,8 +1,8 @@
-# Worksheet 1: Story bank
+# Worksheet 1: Situation bank
 
-Fill in one block per story. Five in total. Remove names and identifying details before you write anything down.
+Fill in one block per situation. Five in total. Remove names and identifying details before you write anything down.
 
-## Story ___
+## Situation ___
 
 **Title (names the lesson, not the event):**
 
@@ -22,7 +22,7 @@ Fill in one block per story. Five in total. Remove names and identifying details
 
 ---
 
-## My five stories at a glance
+## My five situations at a glance
 
 | # | Title | The signal | Success, failure, or "everyone gets this wrong"? |
 |---|---|---|---|
