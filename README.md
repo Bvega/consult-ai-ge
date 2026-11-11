@@ -1,33 +1,30 @@
-﻿# Consult AI-Ge: Expert-to-Tech Marketplace MVP
+# Consult AI-ge
 
-## Vision
-Connect retired domain experts with AI/tech professionals.
+*Said "consult-age".* A six-week course that teaches retired professionals to use simple AI tools to turn decades of experience into an advisory offer (a checklist, a web page and a first paid call) that younger professionals can find, trust and pay for.
 
-## Business Model
-- Consultant: USD 5/month
-- Client: USD 20/month
-- Commission: 15% on bookings
+**To launch, open [START-HERE.md](START-HERE.md).** It is a step-by-step runbook; everything it refers to is already in this repository.
 
-## MVP Features (9 MUST-HAVE)
-- User authentication
-- Consultant + client profiles
-- Search & discovery
-- Matching algorithm
-- In-app messaging
-- Stripe payments
-- Star ratings & reviews
-- Email notifications
-- Admin dashboard
+## What is here
 
-## Timeline
-- Phase 1-4: Complete ✅
-- Build Phase: Week 1-4 (2026-09-19 to 2026-10-11)
-- Launch: 2026-10-11
+| Folder | Contents |
+|---|---|
+| [`plan/`](plan/) | The project brief, the decisions taken on its open questions, pricing, tech stack and legal templates |
+| [`course/`](course/) | The full course: seven modules, worksheets, prompt library, worked case study, facilitator guide |
+| [`site/`](site/) | The website: landing page, waitlist form, free guide, privacy and terms. Static files, no build step |
+| [`marketing/`](marketing/) | Six-week launch plan, email sequences, outreach scripts and posts, info-session script |
+| [`brand/`](brand/) | Name, tagline, colours, type and voice |
 
-## Status
-Ready for Build Phase
+## Preview the website
 
-## GitHub
-https://github.com/Bvega/consult-ai-ge
+```
+cd site
+python3 -m http.server 8000
+```
 
-**Last Updated:** 2026-09-12
+Then open http://localhost:8000. To open sales, paste a payment link into `site/config.js`.
+
+## Phase 2: the marketplace (parked)
+
+This repository began as a plan for a two-sided marketplace connecting retired experts with tech professionals. That idea is parked until the course has produced enough graduates to supply it; see decision 3 in [`plan/02-decisions.md`](plan/02-decisions.md).
+
+The earlier material is kept unchanged: `docs/`, `bubble-app/`, `scripts/`, the `.github/` weekly audit, and the root-level `AUDIT-*`, `WEEK-*`, `CHECKLIST.md`, `MILESTONE-*` and related files. None of it is needed to launch the course.
