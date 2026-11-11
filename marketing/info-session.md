@@ -8,17 +8,17 @@
 
 - [ ] Have an AI assistant open in a browser, text enlarged so the back row can read it
 - [ ] Have the free guide ready to share: `site/free-guide.html`
-- [ ] Arrange one volunteer in advance who is willing to tell a short work story. Brief them: nothing confidential, change the names.
+- [ ] Arrange one volunteer in advance who is willing to tell a short work situation. Brief them: nothing confidential, change the names.
 - [ ] Have the site link ready on a final slide or in the chat
 
 ## Run of show
 
 | Minutes | Segment | What you say or do |
 |---|---|---|
-| 0–5 | Welcome | Who you are. Why you started this. "By the end you will have seen a career story become a checklist, live." |
-| 5–12 | The gap | You have the judgment; younger professionals have the tools; your experience is not written down anywhere they can find it. Tell Linda's story in two minutes, saying clearly that she is an illustration. |
+| 0–5 | Welcome | Who you are. Why you started this. "By the end you will have seen a career situation become a checklist, live." |
+| 5–12 | The gap | You have the judgment; younger professionals have the tools; your experience is not written down anywhere they can find it. Tell Linda's example in two minutes, saying clearly that she is an illustration. |
 | 12–15 | What AI is | "A website where you type a sentence and it answers in a sentence." Show the empty box. Type "Explain what you are in two sentences" and read the answer aloud. |
-| 15–30 | Live demonstration | Invite the volunteer. Paste the interview prompt from the free guide. Let the assistant ask the five questions; the volunteer answers aloud and you type. Ask it to write the story up. Then ask the volunteer, "Is that right?" and correct one thing together. |
+| 15–30 | Live demonstration | Invite the volunteer. Paste the interview prompt from the free guide. Let the assistant ask the five questions; the volunteer answers aloud and you type. Ask it to write the situation up. Then ask the volunteer, "Is that right?" and correct one thing together. |
 | 30–35 | The point | Turn answers 2 and 3 into two "Watch for…" lines. "That is the start of a checklist that only this person could have written. It took fifteen minutes." |
 | 35–40 | The course | Six weeks, what each produces, price, refund, and the honest limit: a method, not a promise of clients. |
 | 40–45 | Questions | Then the invitation: the free guide for everyone, and the waitlist or enrolment link. |
@@ -34,7 +34,7 @@
 | Question | Answer |
 |---|---|
 | "Is what I type private?" | Treat it as you would an email to a supplier: nothing confidential. Change names and figures first. |
-| "Will it replace people like me?" | It has read a great deal and experienced nothing. It could not have told that story. |
+| "Will it replace people like me?" | It has read a great deal and experienced nothing. It could not have lived that situation. |
 | "Which one should I use?" | Any of the main three. Pick one and stay with it. |
 | "Do I have to pay for it?" | The free versions are enough for the course. |
 | "I'm 74. Is that too old?" | No. If you can write an email, you can do this. |

@@ -13,7 +13,7 @@ Linda and Marcus are an illustration invented for this course. They are not real
 | Week | What Linda did | What she had at the end |
 |---|---|---|
 | Setup | Opened an AI assistant and talked about her career for ten minutes | Confidence that she would not break anything |
-| 1 | Was interviewed by the assistant about the worst week of her career | Five stories, including *The audit that found what the late reports were hiding* |
+| 1 | Was interviewed by the assistant about the worst week of her career | Five situations, including *The audit that found what the late reports were hiding* |
 | 2 | Rejected a generic list of "best practices" and kept only what she had seen herself | *3 Warning Signs Your Department Budget Is Hiding a Problem* |
 | 3 | Put the three signs into a template and published a one-page site | A PDF and a web page, built in an afternoon |
 | 4 | Replaced "Retired" in her headline with what she helps with | A one-sentence offer, one post, ten personal messages |
@@ -34,7 +34,7 @@ Linda and Marcus are an illustration invented for this course. They are not real
    Real spending is lumpy. The same small variance every month means someone is managing the number, not reporting it.
    *What I'd do: compare the forecast with actual invoices for one month.*
 
-3. **Questions about numbers get answered with stories about workload.**
+3. **Questions about numbers get answered with explanations about workload.**
    When "why is this line over?" gets "we've been so short-staffed", the person does not know or does not want to say.
    *What I'd do: ask the same question in writing and ask for a figure.*
 
@@ -50,7 +50,7 @@ Linda and Marcus are an illustration invented for this course. They are not real
 
 ## What made it work
 
-- **She started from a real story.** The three signs came from something that happened to her.
+- **She started from a real situation.** The three signs came from something that happened to her.
 - **She overruled the AI.** Twice it offered polished, generic text. Twice she said no and put her own words back.
 - **She went narrow.** "Analysts facing their first audit" was a small group, and one of them recognised himself.
 - **She asked before she told.** Marcus showed his dashboard first. Her observation landed because it was about his numbers.

@@ -36,18 +36,18 @@ Rules of the room, stated in week 1:
 
 ## Week-by-week notes
 
-### Call 1, after Module 1: stories
+### Call 1, after Module 1: situations
 
-- **Aim:** everyone leaves believing their stories are valuable.
-- **Show and tell:** strongest story title and its signal.
-- **Listen for:** stories with no signal ("we worked hard and it turned out well"). Ask: "What did you notice before anyone else did?"
+- **Aim:** everyone leaves believing their situations are valuable.
+- **Show and tell:** strongest situation title and its signal.
+- **Listen for:** situations with no signal ("we worked hard and it turned out well"). Ask: "What did you notice before anyone else did?"
 - **Common snag:** worry about confidentiality. Repeat the rule: disguise it or drop it.
 
 ### Call 2, after Module 2: frameworks
 
 - **Aim:** every framework is specific and earned.
 - **Show and tell:** read the framework aloud. Group says which item landed hardest.
-- **Listen for:** generic items that an AI tool supplied. Ask: "What's the story behind that one?" If there is none, it goes.
+- **Listen for:** generic items that an AI tool supplied. Ask: "What's the experience behind that one?" If there is none, it goes.
 - **Common snag:** "it's too obvious". Have a younger guest or another member confirm it is not obvious to them.
 
 ### Call 3, after Module 3: packaging
@@ -86,7 +86,7 @@ Rules of the room, stated in week 1:
 
 ## Feedback form (week 6)
 
-1. What did you produce during the course? (story bank / framework / one-pager / web page / offer / booking link)
+1. What did you produce during the course? (situation bank / framework / one-pager / web page / offer / booking link)
 2. Which module was most useful? Which was least?
 3. Where did you get stuck?
 4. Was the pace too fast, about right, or too slow?

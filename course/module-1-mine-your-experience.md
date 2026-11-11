@@ -1,19 +1,19 @@
 # Module 1: Mine your experience
 
 **Time:** 2–3 hours
-**You will leave with:** a story bank of five real situations from your career.
+**You will leave with:** a situation bank of five real situations from your career.
 
 ## The idea
 
 Ask an experienced person "what do you know?" and you get a job title. Ask "tell me about a time it nearly went wrong" and you get twenty minutes of exactly what a younger colleague needs to hear.
 
-Experience is stored as stories. The useful part of each story is rarely the ending. It is the moment you noticed something was off, before anyone else did, and what tipped you off.
+Experience is stored as situations. The useful part of each situation is rarely the ending. It is the moment you noticed something was off, before anyone else did, and what tipped you off.
 
-This week you will pull five of those stories out of memory. The AI assistant plays interviewer. Its job is to keep asking "and then what?" until the specifics come out.
+This week you will pull five of those situations out of memory. The AI assistant plays interviewer. Its job is to keep asking "and then what?" until the specifics come out.
 
-### What makes a story worth keeping
+### What makes a situation worth keeping
 
-A good story for this course has four parts:
+A good situation for this course has four parts:
 
 1. **The situation.** Where you were, what was at stake.
 2. **The signal.** The small thing you noticed that others missed.
@@ -43,19 +43,19 @@ It asks: "Was there anything before the call that, looking back, was a sign?"
 
 She stops. There was. Months earlier, one department had submitted every monthly variance report late, always with a good reason. She had thought it was a staffing problem. And the forecasts from that department had been oddly smooth, the same small overspend every month, when real spending is lumpy.
 
-Neither of those was in her head as a "lesson" until someone asked. Two questions later she adds a third sign: a manager who answered every question about the numbers with a story about how busy the team was.
+Neither of those was in her head as a "lesson" until someone asked. Two questions later she adds a third sign: a manager who answered every question about the numbers with an account of how busy the team was.
 
-By the end of the hour the assistant has written the story up in the four-part shape. Linda corrects two details and changes the hospital into "a regional hospital" and the figure into "a seven-figure gap". It goes into her story bank as Story 1: *The audit that found what the late reports were hiding.*
+By the end of the hour the assistant has written the situation up in the four-part shape. Linda corrects two details and changes the hospital into "a regional hospital" and the figure into "a seven-figure gap". It goes into her situation bank as Situation 1: *The audit that found what the late reports were hiding.*
 
 ## Your turn
 
-### Step 1. Start the interview (45 minutes for the first story)
+### Step 1. Start the interview (45 minutes for the first situation)
 
 Open a new conversation and type:
 
 ```
 I want you to interview me about my career so I can capture a
-specific story. I'm a retired [role] with [number] years in [field].
+specific situation. I'm a retired [role] with [number] years in [field].
 
 Rules for the interview:
 - Ask one question at a time and wait for my answer.
@@ -73,10 +73,10 @@ Answer honestly and at length. Speak it aloud if you prefer.
 
 ### Step 2. Have it written up (10 minutes)
 
-When the story is out, type:
+When the situation is out, type:
 
 ```
-Write this story up in four short sections: The situation, The signal,
+Write this situation up in four short sections: The situation, The signal,
 The decision, The lesson. Use my words where you can. Keep it under
 300 words. Then list anything you were unsure about.
 ```
@@ -93,32 +93,32 @@ Read it carefully.
 Then type:
 
 ```
-Give this story a short title that names the lesson, not the event.
+Give this situation a short title that names the lesson, not the event.
 Offer me five options.
 ```
 
-### Step 4. Repeat for four more stories
+### Step 4. Repeat for four more situations
 
 The first takes the longest. Use the same conversation or a new one. Aim for variety: at least one success, one failure and one "everyone gets this wrong".
 
-Save all five in your course folder using the [story bank worksheet](worksheets/1-story-bank.md).
+Save all five in your course folder using the [situation bank worksheet](worksheets/1-situation-bank.md).
 
 ## Done when
 
-- [ ] Five stories written in the four-part shape
+- [ ] Five situations written in the four-part shape
 - [ ] Each has a clear **signal**: something you noticed that a newer person would have missed
 - [ ] All names and identifying details removed
 - [ ] You have read every word and it sounds like you
 
 ## Bring to the call
 
-The title of your strongest story and its signal, in under a minute.
+The title of your strongest situation and its signal, in under a minute.
 
 ## If you get stuck
 
 | Problem | Try this |
 |---|---|
 | "I can't think of anything" | Call a former colleague and ask what they remember you being good at |
-| The story is too general | Type: "Ask me three more questions about the specific moment I realised something was wrong." |
+| The situation is too general | Type: "Ask me three more questions about the specific moment I realised something was wrong." |
 | The write-up sounds like a brochure | Type: "Rewrite this in plain language, the way I'd tell it over coffee." |
-| You worry it is confidential | Leave it out. You have more stories than you think |
+| You worry it is confidential | Leave it out. You have more situations than you think |

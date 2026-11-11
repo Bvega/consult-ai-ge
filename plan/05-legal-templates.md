@@ -24,7 +24,7 @@ Use in Module 0 and Module 6.
 
 Use in Module 0 and Module 1.
 
-> Your stories belong to you; your former employer's confidential information does not. Before you use a story, remove names, figures and details that could identify an organisation, client or patient. If you signed a confidentiality or non-compete agreement, reread it. Never paste confidential documents into an AI tool.
+> Your situations belong to you; your former employer's confidential information does not. Before you use a situation, remove names, figures and details that could identify an organisation, client or patient. If you signed a confidentiality or non-compete agreement, reread it. Never paste confidential documents into an AI tool.
 
 ## Testimonial consent
 

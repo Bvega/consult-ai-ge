@@ -1,12 +1,12 @@
 # Worksheet 2: Framework builder
 
-**Story I am using:** ______________________________________
+**Situation I am using:** ______________________________________
 
 **Shape** (circle one): warning signs · checklist · questions to ask · steps · either/or guide
 
 **Name** (number + form + situation): ______________________________________
 
-| # | The item, in my own words | What I'd do | The story behind it |
+| # | The item, in my own words | What I'd do | The experience behind it |
 |---|---|---|---|
 | 1 | | | |
 | 2 | | | |
@@ -19,7 +19,7 @@
 - ☐ **Specific:** it names a situation a real person is in right now
 - ☐ **Short:** three to seven items
 - ☐ **Observable:** each item can be seen or checked
-- ☐ **Earned:** I can tell the story behind every item
+- ☐ **Earned:** I can tell the experience behind every item
 
 ## Questions a reader would want to ask me
 

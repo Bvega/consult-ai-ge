@@ -25,7 +25,7 @@ Keep within the connection-note character limit.
 
 If they accept:
 
-> Thank you. Here is the guide: [[free guide link]]. It's five questions and takes twenty minutes. If you try it, I'd like to hear which story you chose.
+> Thank you. Here is the guide: [[free guide link]]. It's five questions and takes twenty minutes. If you try it, I'd like to hear which situation you chose.
 
 ## C. To an association, alumni office or community group
 
@@ -60,7 +60,7 @@ If they accept:
 >
 > Link in the comments.
 
-### D2. The Linda story
+### D2. The Linda example
 
 > Linda ran hospital finance for 31 years. Ask her what she knows and she'll say "budgets".
 >
@@ -68,7 +68,7 @@ If they accept:
 >
 > 1. The reports were always late, with a good reason every time.
 > 2. The forecast was too smooth. Real spending is lumpy.
-> 3. Questions about numbers got answered with stories about workload.
+> 3. Questions about numbers got answered with explanations about workload.
 >
 > Three warning signs that a department budget is hiding a problem. She'd never written them down until an AI assistant asked her, "Was there an earlier sign?"
 >
@@ -86,7 +86,7 @@ If they accept:
 
 ### D4. The free guide
 
-> Five questions that turn one career story into the start of a checklist:
+> Five questions that turn one career situation into the start of a checklist:
 >
 > 1. What was at stake?
 > 2. What did you notice first?

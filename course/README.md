@@ -8,8 +8,8 @@ You have spent decades in a field such as finance, healthcare administration, op
 
 ## What you will have at the end
 
-1. A **story bank**: five real situations from your career, written down
-2. A **framework**: one of those stories turned into a named, reusable tool
+1. A **situation bank**: five real situations from your career, written down
+2. A **framework**: one of those situations turned into a named, reusable tool
 3. A **one-pager and a simple web page** that show that tool to the world
 4. A **one-sentence offer** that a 28-year-old in your field understands immediately
 5. **Three conversations** with younger professionals who could use your judgment
@@ -21,7 +21,7 @@ You have spent decades in a field such as finance, healthcare administration, op
 |---|---|---|
 | Before week 1 | [0. Welcome and setup](module-0-welcome-and-setup.md) | 1 hour |
 | 1 | [1. Mine your experience](module-1-mine-your-experience.md) | 2–3 hours |
-| 2 | [2. From stories to frameworks](module-2-stories-to-frameworks.md) | 2–3 hours |
+| 2 | [2. From situations to frameworks](module-2-situations-to-frameworks.md) | 2–3 hours |
 | 3 | [3. Package it](module-3-package-it.md) | 3–4 hours |
 | 4 | [4. Position it](module-4-position-it.md) | 2–3 hours |
 | 5 | [5. Work across generations](module-5-work-across-generations.md) | 2–3 hours |
