@@ -26,6 +26,7 @@ Estimated effort to first sale: about 12 hours of setup spread over a week, then
 - [ ] Preview it locally: `cd site && python3 -m http.server 8000`
 - [ ] Register a domain name.
 - [ ] Deploy to Netlify following `plan/04-tech-stack.md` ("Deploying the site"). The repository already contains `netlify.toml`.
+- [ ] In Netlify, open the project's Forms tab and make sure form detection is enabled; then redeploy. Without it the form submits to a 404.
 - [ ] Submit the waitlist form once yourself and confirm that the entry appears in Netlify under Forms.
 - [ ] Turn on email notifications for new form entries.
 
